@@ -13,4 +13,6 @@ var personalName = "A R";
 console.log("Hello! " + personalName);
 
 //2. Exercise 4: Famouse Quote:
-//Abdullah Rauf                 Current Date: 
+//Abdullah Rauf                 Current Date: 2/11/2023
+//This is a simple program to print a string in the console.
+console.log("Kentaro Muira, is the author of the famous manga BERSERK......");
