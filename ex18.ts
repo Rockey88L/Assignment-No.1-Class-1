@@ -1,16 +1,16 @@
 //No. 18
-//Seeing the World: 
+//Seeing the World:
 // Think of at least five places in the world you’d like to visit.
 
 // • Store the locations in a array. Make sure the array is not in alphabetical order.
 
 let countryName = ["Japan", "Iceland", "Greenland", "Turkey", "Singapore"];
 // •1 Print your array in its original order.
-console.log("Original Order")
+console.log("Original Order");
 console.log(countryName);
 
 // •2 Print your array in alphabetical order without modifying the actual list.
-let sortCountName = countryName.slice().sort();        // we use slice method to create a copy of the original array and perform sort on the copy instead of org.
+let sortCountName = countryName.slice().sort(); // we use slice method to create a copy of the original array and perform sort on the copy instead of org.
 console.log("Alphabetical Order");
 console.log(sortCountName);
 
@@ -20,7 +20,7 @@ console.log(countryName);
 
 // •4 Print your array in reverse alphabetical order without changing the order of the original list.
 let reverseCountName = sortCountName.slice().reverse();
-console.log("Reverse Aplhabetic Order Without Change Org")
+console.log("Reverse Aplhabetic Order Without Change Org");
 console.log(reverseCountName);
 
 // •5 Show that your array is still in its original order by printing it again.
@@ -29,8 +29,8 @@ console.log(countryName);
 
 // •6 Reverse the order of your list. Print the array to show that its order has changed.
 countryName.reverse();
-console.log("Reversing the list once")
-console.log(countryName)
+console.log("Reversing the list once");
+console.log(countryName);
 
 // •7 Reverse the order of your list again. Print the list to show it’s back to its original order.
 countryName.reverse();

@@ -5,8 +5,11 @@ console.log(b.toLowerCase()); // converts to lowercase
 console.log(b.toUpperCase()); // converts to uppercase
 console.log(titleCase(b)); // calls the function with a parameter passed to it
 function titleCase(string) {
-    return string
-        .toLowerCase().split(' ')
-        .map(function (word) { return word[0].toUpperCase() + word.slice(1); })
-        .join(' ');
+  return string
+    .toLowerCase()
+    .split(" ")
+    .map(function (word) {
+      return word[0].toUpperCase() + word.slice(1);
+    })
+    .join(" ");
 }
